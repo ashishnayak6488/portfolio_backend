@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://portfolio-frontend-mauve-psi.vercel.app/",
+      "https://portfolio-frontend-mauve-psi.vercel.app",
       "http://localhost:3000",
     ],
     credentials: true,
